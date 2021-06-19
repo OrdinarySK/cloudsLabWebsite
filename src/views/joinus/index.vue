@@ -157,7 +157,7 @@ li{
 }
 
 section{
-  background-color: #0574D0;
+  background-color: #468dc7;
   border-radius: 5px;
   color: #eeeeee;
   text-align: center;

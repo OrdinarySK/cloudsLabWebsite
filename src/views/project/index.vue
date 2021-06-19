@@ -50,7 +50,7 @@ export default {
                 {id: 'zhyjsjdzzh', name: '省级地质灾害应急指挥系统', picUrl: require('@/assets/projectImg/省级地质灾害应急指挥系统.jpg')},         
                 ],
                 dsj:[
-                  {id: 'dsjxadz', name: '雄安新区基础地质数据展示子系统开发及空间分析算法研究', picUrl: require('@/assets/projectImg/雄安新区基础地质数据展示子系统.jpg')},
+                  {id: 'dsjxadz', name: '雄安新区基础地质数据展示子系统', picUrl: require('@/assets/projectImg/雄安新区基础地质数据展示子系统.jpg')},
                   {id: 'dsjxadsj',name: '雄安新区地质大数据综合展示子系统', picUrl: require('@/assets/projectImg/雄安新区地质大数据综合展示子系统.jpg')}
                 ],
                 sl:[
