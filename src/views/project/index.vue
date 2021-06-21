@@ -1,13 +1,18 @@
+<!--该视图为项目的主视图文件-->
 <template>
   <div class="project-container">
+    <!--导航栏组件-->
     <Content
     :item= "item">
     </Content>
+    <!--内容部分-->
     <div class="main">
+      <!--左侧导航栏-->
       <div class="left">
       <ProAside :memberClass="projectClass"
       @pushInfo="pushInfo"></ProAside>
     </div>
+    <!--右侧项目内容栏-->
     <div class="right">
       <ProjectList 
       :lists="lists[game]"></ProjectList>
@@ -59,6 +64,7 @@ export default {
                 ]
             }
      }},
+     /******获取当前导航栏选择的栏目名称 */
     methods: {
       pushInfo(e){
         console.log(e);

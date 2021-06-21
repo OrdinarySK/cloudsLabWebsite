@@ -1,7 +1,7 @@
 <template>
   <div class="personal-intro-container">
     <div class="personal-intro">
-      <p class="intro"><span>{{studentInfo[0].name}}</span>,目前所学专业为<span>{{studentInfo[0].major}}</span>,研究方向<span v-if="studentInfo[0].researchFields">为{{studentInfo[0].researchFields}}</span ><span v-else>暂定</span>。</p>
+      <p class="intro"><span v-if="studentInfo[0].name"><span>{{studentInfo[0].name}}</span>,目前所学专业为<span>{{studentInfo[0].major}}</span>,研究方向<span v-if="studentInfo[0].researchFields">为{{studentInfo[0].researchFields}}</span ><span v-else>暂定</span>。</span><span v-else>暂无信息</span></p>
     </div>
     <div class="personal-infor" v-for="(pItem,index) in studentInfo[1]" :key="index">
       <h3 class="experience">{{pItem.title}}</h3>

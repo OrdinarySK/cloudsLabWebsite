@@ -1,7 +1,7 @@
 <template>
   <div class="personal-intro-container">
     <div class="personal-intro">
-      <p class="intro"><a href="http://grzy.cug.edu.cn/luoxiangang" style="text-decoration: none">{{personalInfo[0].name}}</a>，{{personalInfo[0].resume}}</p>
+      <p class="intro"><a :href="personalInfo[0].detailUrl" style="text-decoration: none;font-size: 20px">{{personalInfo[0].name}}</a>，{{personalInfo[0].resume}}</p>
     </div>
     <div class="personal-infor" v-for="(pItem,index) in personalInfo[1]" :key="index">
       <h3 class="experience">{{pItem.title}}</h3>
@@ -46,6 +46,7 @@
   }
   .personal-intro p{
     word-break: break-all;
+    text-indent: 2em;
   }
   .personal-infor .paper{
      list-style: decimal;

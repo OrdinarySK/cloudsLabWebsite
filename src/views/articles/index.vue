@@ -6,7 +6,7 @@
 
     <div class="article-content">
       <div class="left">
-        <Aside :memberClass="mClass" @inc="addnumber"></Aside>
+        <Aside :memberClass="mClass" @inc="addnumber" id="articleAside"></Aside>
       </div>
       <div class="right">
         <Article :article-class="myArticle" :position="clickYear">
@@ -123,7 +123,8 @@ export default {
   },
   methods:{
     addnumber(x){
-      this.clickYear = x;
+      let s = Number(x) + Math.random();
+      this.clickYear = s.toString();
       // alert(this.clickYear);
 
     }
@@ -145,6 +146,7 @@ export default {
     /*max-width:40%;*/
     /*min-width: 30%;*/
     width:20%;
+
     /*margin: 0 5px;*/
 
     /*justify-content:flex-start;*/
@@ -156,4 +158,5 @@ export default {
     margin: 10px 0 0 15px;
     /*background: blue;*/
   }
+
 </style>

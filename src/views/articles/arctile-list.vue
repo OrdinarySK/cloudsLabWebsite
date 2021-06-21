@@ -27,14 +27,13 @@
         },
         watch:{
             position(){
-                // alert('#' + this.position)
-                // alert(this.$refs[this.position]);
+                let dom = document.getElementById(Math.floor(this.position).toString());
 
-                let dom = document.getElementById(this.position);
                 // let top = dom.getBoundingClientRect().top;
 
                 let top = dom.offsetTop;
                 window.scrollTo(0, top)
+
 
 
             }

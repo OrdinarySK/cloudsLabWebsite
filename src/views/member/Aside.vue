@@ -1,9 +1,8 @@
 <template>
   <div class="member-class-container">
     <ul class="member-class">
-      <li v-for="(item, index) in memberClass"
-      :key=index> 
-        <a href="javascript:;">{{item}}</a>
+      <li v-for="(item, index) in memberClass" :key=index @click="getItem" :class="item.id" >
+        <a :class="item.id" >{{item.category}}</a>
         <i class="iconfont icon-you-jiantou"></i>
       </li>
     </ul>
@@ -18,6 +17,11 @@
         type: Array,
         required: true
       }
+    },
+    methods:{
+       getItem(e){
+        this.$emit("handleClick",e.target.className)
+       }
     }
   }
 
@@ -28,6 +32,7 @@
    .member-class-container{
      width: 100%;
      position: relative;
+     overflow: auto;
    }
    .member-class{
      width: 50%;

@@ -1,7 +1,7 @@
 <template>
   <div class="project-detail">
       <Content
-      :item="item">
+      :item="items[id].title">
       </Content>
       <div class="main">
           <div class="title">
@@ -27,7 +27,7 @@ export default {
     },
     data() {
         return {
-            item: '项目详情',
+            
             id: '',
             items: {
                 dzhjhns: {
