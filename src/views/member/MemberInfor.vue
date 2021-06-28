@@ -22,11 +22,11 @@
       return {
         member:[{ category:"teacher",
                   degree:"导师",
-                  deMember:[{name:"罗显刚", route:"/teacher/lxg",picSrc:require('@/assets/menberImg/daoshi/罗显刚.jpg'),des:"副教授 博士生导师"},
-                            {name:"徐战亚", route:"/teacher/xzy",picSrc:require('@/assets/menberImg/daoshi/徐战亚.jpg'),des:"副教授 硕士生导师"},
-                            {name:"朱双", route:"/teacher/zs",picSrc:require('@/assets/menberImg/daoshi/朱双.jpg'),des:"研究员 硕士生导师"}]},
+                  deMember:[{name:"罗显刚", route:"/teacher/lxg",picSrc:require('@/assets/menberImg/daoshi/罗显刚.jpg'),des:"博士生导师"},
+                            {name:"徐战亚", route:"/teacher/xzy",picSrc:require('@/assets/menberImg/daoshi/徐战亚.jpg'),des:"硕士生导师"},
+                            {name:"朱双", route:"/teacher/zs",picSrc:require('@/assets/menberImg/daoshi/朱双.jpg'),des:"硕士生导师"}]},
                 { category:"doctor",
-                  degree: "博士",
+                  degree: "博士研究生",
                  deMember: [{
                   name:"赵文杰",route:"/student/zwj",picSrc: require('../../assets/menberImg/yanjiusheng/赵文杰.jpg'),des:"生态环境大数据"
                  }]},
@@ -59,8 +59,22 @@
           },
           { category:"s2021",
             degree:"21级研究生",
-            deMember: [{name:"夏广",route:"/student/xg",picSrc:require('../../assets/menberImg/yanjiusheng/夏广.jpg'),des:""}]}
-              ]
+            deMember: [{name:"夏广",route:"/student/xg",picSrc:require('../../assets/menberImg/yanjiusheng/夏广.jpg'),des:""}]},
+          { category:"ss",
+            degree:"已毕业研究生",
+
+            deMember: [
+              {name:"林霏开", route:"/student/lfk",picSrc:require('../../assets/menberImg/yanjiusheng/林霏开.jpg'),des:"就职于阿里"},
+              {name:"肖祖香", route:"/student/xzx", picSrc:require('../../assets/menberImg/yanjiusheng/肖祖香.jpg'),des:"就职于广东国地"},
+              {name:"李建庆",  route:"/student/ljq",picSrc:require('../../assets/menberImg/yanjiusheng/李建庆.jpg'),des:"就职于阿里"},
+              {name:"曹雷宇", route:"/student/cly",picSrc:require('../../assets/menberImg/yanjiusheng/曹雷宇.jpg'),des:"就职于字节跳动"},
+              {name:"刘庚", route:"/student/lg",picSrc:require('../../assets/menberImg/yanjiusheng/刘庚.jpg'),des:"就职于华为"},
+              {name:"孟书令",route:"/student/msl",picSrc:require('../../assets/menberImg/yibiye/男.jpg'),des:"就职于顺丰科技"},
+              {name:"张孝祥",route:"/student/zxx",picSrc:require('../../assets/menberImg/yibiye/男.jpg'),des:"就职于京东"},
+              {name:"吴迪",route:"/student/wd",picSrc:require('../../assets/menberImg/yibiye/男.jpg'),des:"就职于小米"},
+              {name:"涂静敏",route:"/student/tjm",picSrc:require('../../assets/menberImg/yibiye/女.jpg'),des:"武大读博"}
+              ]}
+        ]
       }
     }
   }

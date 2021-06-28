@@ -4,24 +4,14 @@
     :item= "item">
     </Content>
       <div class="container">
-        <section id="introduction">
-          <br>
-          <div class="page-header">
-            <h3>实验室代码仓库</h3> 
-          </div>    
+        <section class="content" v-for="(data, index) in datas" :key="index">
+          <h3>{{data.title}}</h3>
+          <ul class="information">
+            <li v-for="(content, index) in data.contents" :key="index" class="inf_list">
+              <p>{{content}}</p>
+            </li>
+          </ul>
         </section>
-        <ul style="margin-left:20px;">
-          <li v-for = "(item, index) in data" :key= index><a :href="item.url" target="_blank">{{item.name}}</a></li>
-        </ul>
-        <section id="introduction">
-          <br>
-          <div class="page-header">
-            <h3>实验室成员代码仓库</h3> 
-          </div>    
-        </section>
-        <ul style="margin-left:20px;">
-          <li v-for = "(item, index) in peoples" :key= index><a :href="item.url" target="_blank">{{item.name}}</a></li>
-        </ul>
       </div>
 
       
@@ -36,14 +26,33 @@ export default {
   },
   data() {
     return {
-      item: "Gitee/GiteHub",
-      data: [
-        {name: '实验室Gitte仓库', url: 'https://gitee.com/cugyspace'},
-        {name: '实验室GitHub仓库', url: '#'}
-        
-      ],
-      peoples: [
-        {name: '罗凯GitHub', url: 'https://github.com/OrdinarySK'}
+      item: "获奖信息",
+      datas: [
+        {
+          title: "导师奖项",
+          contents: [
+            "罗显刚，2020年度武汉市突出贡献中青年专家，2020年",
+            "罗显刚，《高精度北斗洪灾实时动态预测预警关键技术研究》卫星导航定位科学技术奖二等奖，2019年",
+            "罗显刚，《汶川地震区重大地质灾害成生规律研究》国土资源科学技术奖二等奖，2018年",
+            "罗显刚，2017-2018年度武汉市软件和信息技术服务业优秀企业家，2018年",
+            "罗显刚，《大型遥感一体化服务平台研发与应用》测绘科技进步奖二等奖，2013年",
+            "罗显刚，《突破与提升.2012高校GIS论坛》全国GIS高校新锐奖，2012年",
+            "罗显刚，《城市空间信息基础设施共享关键技术研究与示范》华夏建设科学技术一等奖，2012年",
+            "罗显刚，《对等式结点管理器及对等式结点管理器管理方法》中国专利优秀奖，2012年",
+            "罗显刚，《基于大型GIS的地质调查空间数据管理系统》科技进步奖二等奖，2010年",
+            "罗显刚，湖北省测绘科技进步奖，湖北省测绘学会，2008年",
+            "罗显刚，第一届“全国GIS高校新秀奖”，全国高校GIS论坛，2008年",
+            "罗显刚，《湖北省地质灾害气象预警预报网上发布系统》，湖北省科技进步三等奖，2006年"
+          ]
+        },
+        {
+          title: "学生奖项",
+          contents: [
+            "赵文杰、涂静敏等，全国地质灾害气象警云平台，“互联网+”大赛，一等奖，中国地质大学（武汉）（指导老师：罗显刚），2016年",
+            "赵文杰、涂静敏等，全国地质灾害气象警云平台，“互联网+”大赛，铜奖，湖北省教育厅（指导老师：罗显刚、徐战亚、武彦斌），2016年",
+            "郭宇昕、肖尹黎、孔若楠、周密、万杰，“腾讯云杯”2020武汉开放数据应用创新大赛，三等奖，武汉市政服务和大数据管理局（指导老师：罗显刚、徐战亚、朱双）,2020年"
+          ]
+        }
       ]
     }
   }
@@ -51,17 +60,12 @@ export default {
 </script>
 
 <style scoped>
-a{
-  font-weight: bold;
-  color:cornflowerblue;
-}
-.page-header{
-  border-bottom: 1px solid #eeeeee;
-  padding-bottom: 9px;
-  margin: 20px 0px 30px;
-}
 .container{
   width: 70%;
-  margin: 0px 15%;
+  margin: 20px 15%;
+  line-height: 1.8em;
+}
+.information{
+  margin-left: 40px;
 }
 </style>

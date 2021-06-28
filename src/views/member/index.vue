@@ -29,7 +29,7 @@
     data:()=>{
       return {
         position:"teacher",
-        mClass:[{category:"导师",id:"teacher"},{category:"博士",id :"doctor"},{category:"18级研究生",id:"s2018"},{category:"19级研究生",id:"s2019"},{category:"20级研究生",id:"s2020"},{category:"21级研究生",id:"s2021"}]
+        mClass:[{category:"导师",id:"teacher"},{category:"博士研究生",id :"doctor"},{category:"18级研究生",id:"s2018"},{category:"19级研究生",id:"s2019"},{category:"20级研究生",id:"s2020"},{category:"21级研究生",id:"s2021"},{category:"已毕业研究生",id:"ss"}]
       }
     },
     components:{

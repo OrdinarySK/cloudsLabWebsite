@@ -83,8 +83,8 @@ export default {
         {
           year:2018,
           papers:['1. Luo X G, Wang J, Xu Z, et al. Dynamic analysis of urban ground subsidence in Beijing based on the permanent scattering insar technology[J]. Journal of Applied Remote Sensing, 2018, 12(2): 026001.',
-            '',
-            '',
+            '2. Xl A ,  Xy B ,  Shuang Z A , et al. A hybrid support vector regression framework for streamflow forecast[J]. Journal of Hydrology, 2019, 568:184-193.',
+            '3. Luo X, Yuan X, Zhu S, et al. A hybrid support vector regression framework for streamflow forecast[J]. Journal of Hydrology, 2019, 568: 184-193.',
             ''
           ]
         },

@@ -52,7 +52,7 @@ export default {
         },
         {
           name: 'Git',
-          title: "Gitee/GitHub",
+          title: "获奖信息",//先前为Gitee，后修改为获奖信息
         },
         {
           name: 'Resource',
