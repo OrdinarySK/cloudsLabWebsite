@@ -5,7 +5,7 @@
       <div class="page-header">
           <!-- 校徽 -->
           <div class="badge">
-            <img class="school-badge" src="http://www.aydesign.com.cn/uploadfile/image/20190319/20190319150740_20221.jpg" alt="">
+            <img class="school-badge" :src="logo" alt="">
           </div>
           <!-- 团队名称 -->
           <div class="team-name">
@@ -62,6 +62,7 @@ import introduction1 from "@/assets/homepage/introduction1.png";
 import introduction2 from "@/assets/homepage/introduction2.png";
 import introduction3 from "@/assets/homepage/introduction3.png";
 import introduction4 from "@/assets/homepage/introduction4.png";
+import logo from "@/assets/homepage/schoollogo.jpg";
 export default {
   components: {
     Banner
@@ -83,6 +84,7 @@ export default {
       // 主页公告右侧数据
       detailShow: false,
       moreText: "展开",
+      logo,
       items: [
         {
           time: "2021.6.17",
