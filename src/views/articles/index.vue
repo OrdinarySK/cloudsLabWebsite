@@ -40,7 +40,7 @@ export default {
     return {
       item: "论文",
       clickYear:'2000',
-      mClass:['2021', "2020","2019",'2018', '2016','2015', '2014'],
+      mClass:['2021', "2020","2019",'2018', '2016'],
       myArticle:[
         {
           year:2021,
@@ -73,7 +73,6 @@ export default {
                   '7. Luo X, Lin F, Zhu S, et al. Mine landslide susceptibility assessment using IVM, ANN and SVM models considering the contribution of affecting factors[J]. PloS one, 2019, 14(4).',
                   '8. Wang J, Zhu S, Luo X, et al. Refined micro-scale geological disaster susceptibility evaluation based on UAV tilt photography data and weighted certainty factor method in Qingchuan County [J]. Ecotoxicology and Environmental Safety, 2019: 110005. (SCIE)',
                   '9. Zhu S, Luo X, Xu Z, et al. Seasonal streamflow forecasts using mixture-kernel GPR and advanced methods of input variable selection[J]. Hydrology Research, 2019, 50(1): 200-214. (SCIE)',
-                  '10. Luo X, Yuan X, Zhu S, et al. A hybrid support vector regression framework for streamflow forecast[J]. Journal of Hydrology, 2019, 568: 184-193.  (SCIE)',
                   '',
                   '',
                   '',
@@ -99,22 +98,7 @@ export default {
             '6. Zhu S, Zhou J, Ye L, et al. Streamflow estimation by support vector machine coupled with different methods of time series decomposition in the upper reaches of Yangtze River, China[J]. Environmental Earth Sciences, 2016, 75(6): 531.'
           ]
         },
-        {
-          year:2015,
-          papers:['1. 罗显刚, 彭静. 以GIS开发大赛为依托的信息工程专业本科生创新能力培养研究[J]. 课程教育研究, 2015, 000(002):250-251.',
-            '',
-            '',
-            ''
-          ]
-        },
-        {
-          year:2014,
-          papers:['1. Lu H, Xian-gang L, Hong-qi C, et al. A Visualization Model of Geological Disaster Emergency Scheme Based on Ontology[J]. The Open Cybernetics & Systemics Journal, 2014, 8(1).',
-            '2. Lin F T, Hsu P H. The development of disaster management information systems in Taiwan[C]//The 1st International Conference on Urban Disaster Reduction. 2005.',
-            '',
-            ''
-          ]
-        },
+        
 
       ]
 

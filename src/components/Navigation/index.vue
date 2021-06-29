@@ -47,16 +47,16 @@ export default {
           title: "活动",
         },
         {
-          name: 'JoinUs',
-          title: "加入我们",
-        },
-        {
           name: 'Git',
           title: "获奖信息",//先前为Gitee，后修改为获奖信息
         },
         {
           name: 'Resource',
           title: "资料与链接",
+        },
+        {
+          name: 'JoinUs',
+          title: "加入我们",
         }
       ]
     }

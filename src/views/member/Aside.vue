@@ -4,6 +4,7 @@
       <li v-for="(item, index) in memberClass" :key=index @click="getItem" :class="item.id" >
         <a :class="item.id" >{{item.category}}</a>
         <i class="iconfont icon-you-jiantou"></i>
+        <p></p>
       </li>
     </ul>
   </div>
@@ -41,10 +42,10 @@
      margin-top: 30px;
    }
   li{
+    position: relative;
     list-style: none;
     display: block;
     width: 100%;
-    height: 40px;
     font-size: 17px;
     border: 1px solid rgba(0, 0, 0, 0.1);
     text-align: center;
@@ -71,10 +72,20 @@
   }
    i{
      color: gray;
+     /*position: absolute;*/
+     /*bottom:0;*/
+     /*right: 0;*/
      float: right;
-     margin-top: 13px;
+     margin-top: 11px;
      margin-right: 10px;
    }
-
+  /*i:after{*/
+  /*  content: "";*/
+  /*  display: block;*/
+  /*  clear: both;*/
+  /*}*/
+  .member-class p{
+    clear: both;
+  }
 
 </style>

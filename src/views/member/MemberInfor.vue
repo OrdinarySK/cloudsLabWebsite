@@ -30,36 +30,43 @@
                  deMember: [{
                   name:"赵文杰",route:"/student/zwj",picSrc: require('../../assets/menberImg/yanjiusheng/赵文杰.jpg'),des:"生态环境大数据"
                  }]},
-                { category:"s2018",
-                  degree:"18级研究生",
-                  deMember:[{name:"林霏开", route:"/student/lfk",picSrc:require('../../assets/menberImg/yanjiusheng/林霏开.jpg'),des:"滑坡灾害预警预测"},
-                            {name:"肖祖香", route:"/student/xzx", picSrc:require('../../assets/menberImg/yanjiusheng/肖祖香.jpg'),des:"干旱评估"},
-                            {name:"李建庆",  route:"/student/ljq",picSrc:require('../../assets/menberImg/yanjiusheng/李建庆.jpg'),des:"水文过程模拟"},
-                            {name:"曹雷宇", route:"/student/cly",picSrc:require('../../assets/menberImg/yanjiusheng/曹雷宇.jpg'),des:"干旱分析"},
-                            {name:"刘庚", route:"/student/lg",picSrc:require('../../assets/menberImg/yanjiusheng/刘庚.jpg'),des:"遥感大数据及其应用"},
-
-                  ]},
-          {category:"s2019",
-            degree:"19研究生",
+                // { category:"s2018",
+                //   degree:"18级研究生",
+                //   deMember:[{name:"林霏开", route:"/student/lfk",picSrc:require('../../assets/menberImg/yanjiusheng/林霏开.jpg'),des:"滑坡灾害预警预测"},
+                //             {name:"肖祖香", route:"/student/xzx", picSrc:require('../../assets/menberImg/yanjiusheng/肖祖香.jpg'),des:"干旱评估"},
+                //             {name:"李建庆",  route:"/student/ljq",picSrc:require('../../assets/menberImg/yanjiusheng/李建庆.jpg'),des:"水文过程模拟"},
+                //             {name:"曹雷宇", route:"/student/cly",picSrc:require('../../assets/menberImg/yanjiusheng/曹雷宇.jpg'),des:"干旱分析"},
+                //             {name:"刘庚", route:"/student/lg",picSrc:require('../../assets/menberImg/yanjiusheng/刘庚.jpg'),des:"遥感大数据及其应用"},
+                //
+                //   ]},
+          {category:"sp",
+            degree:"在读硕士研究生",
             deMember: [{name:"陈旭东", route:"/student/cxd",picSrc:require('../../assets/menberImg/yanjiusheng/陈旭东.jpg'),des:"时空风速预测"},
               {name:"李俊奇", route:"/student/Ljq", picSrc:require("../../assets/menberImg/yanjiusheng/李俊奇.jpg"),des:"基于深度学习的植被干旱预测"},
               {name:"罗凯", route:"/student/lk", picSrc:require('../../assets/menberImg/yanjiusheng/罗凯.jpg'),des:"生态水文监测站点布设"},
               {name:"魏嘉楠", route:"/student/wjn",picSrc:require('../../assets/menberImg/yanjiusheng/魏嘉楠.jpg'),des:"水文遥感"},
-              {name:"刘晓", route:"/student/lx",picSrc:require('../../assets/menberImg/yanjiusheng/刘晓.jpg'),des:"城市热岛、城市化"}]
-          },
-          { category:"s2020",
-            degree:"20级研究生",
-            deMember: [  {name:"郭宇昕", route:"/student/gyx",picSrc:require('../../assets/menberImg/yanjiusheng/郭宇昕.jpg'),des:"滑坡预测"},
+              {name:"刘晓", route:"/student/lx",picSrc:require('../../assets/menberImg/yanjiusheng/刘晓.jpg'),des:"城市热岛、城市化"},
+              {name:"郭宇昕", route:"/student/gyx",picSrc:require('../../assets/menberImg/yanjiusheng/郭宇昕.jpg'),des:"滑坡预测"},
               {name:"孔若楠", route:"/student/krn",picSrc:require('../../assets/menberImg/yanjiusheng/孔若楠.jpg'),des:"滑坡易发性评价"},
               {name:"周密",route:"/student/zm",picSrc:require('../../assets/menberImg/yanjiusheng/周密.jpg'),des:"基于空间相似性的滑坡敏感性评价"},
               {name:"李论",route:"/student/ll", picSrc:require('../../assets/menberImg/yanjiusheng/李论.jpg'),des:"基于深度学习的流域水文预报"},
               {name:"谢玉明", route:"/student/xym",picSrc:require('../../assets/menberImg/yanjiusheng/谢玉明.jpg'),des:"本体、知识图谱"},
               {name:"肖尹黎",route:"/student/xyl",picSrc:require('../../assets/menberImg/yanjiusheng/肖尹黎.jpg'),des:"滑坡位移预测"},
-             ]
+              {name:"夏广",route:"/student/xg",picSrc:require('../../assets/menberImg/yanjiusheng/夏广.jpg'),des:""}]
           },
-          { category:"s2021",
-            degree:"21级研究生",
-            deMember: [{name:"夏广",route:"/student/xg",picSrc:require('../../assets/menberImg/yanjiusheng/夏广.jpg'),des:""}]},
+          // { category:"s2020",
+          //   degree:"20级研究生",
+          //   deMember: [  {name:"郭宇昕", route:"/student/gyx",picSrc:require('../../assets/menberImg/yanjiusheng/郭宇昕.jpg'),des:"滑坡预测"},
+          //     {name:"孔若楠", route:"/student/krn",picSrc:require('../../assets/menberImg/yanjiusheng/孔若楠.jpg'),des:"滑坡易发性评价"},
+          //     {name:"周密",route:"/student/zm",picSrc:require('../../assets/menberImg/yanjiusheng/周密.jpg'),des:"基于空间相似性的滑坡敏感性评价"},
+          //     {name:"李论",route:"/student/ll", picSrc:require('../../assets/menberImg/yanjiusheng/李论.jpg'),des:"基于深度学习的流域水文预报"},
+          //     {name:"谢玉明", route:"/student/xym",picSrc:require('../../assets/menberImg/yanjiusheng/谢玉明.jpg'),des:"本体、知识图谱"},
+          //     {name:"肖尹黎",route:"/student/xyl",picSrc:require('../../assets/menberImg/yanjiusheng/肖尹黎.jpg'),des:"滑坡位移预测"},
+          //    ]
+          // },
+          // { category:"s2021",
+          //   degree:"21级研究生",
+          //   deMember: [{name:"夏广",route:"/student/xg",picSrc:require('../../assets/menberImg/yanjiusheng/夏广.jpg'),des:""}]},
           { category:"ss",
             degree:"已毕业研究生",
 
@@ -93,7 +100,7 @@
   .memberInfor h1{
     color:#5a5a5a;
     width: 100%;
-    height: 70px;
+    /*height: 70px;*/
     line-height: 70px;
     border-bottom:1px solid rgba(0,0,0,0.1);
   }
