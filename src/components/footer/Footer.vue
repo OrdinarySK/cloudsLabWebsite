@@ -16,11 +16,11 @@
               |
               <router-link to="/activity">活动</router-link>
               |
-              <router-link to="/joinus">加入我们</router-link>
-              |
-              <router-link to="/git">Gitee/GitHub</router-link>
+              <router-link to="/git">获奖信息</router-link>
               |
               <router-link to="/resource">资料与链接</router-link>
+              |
+              <router-link to="/joinus">加入我们</router-link>
               <br>
               地址：中国湖北武汉市东湖高新区锦程街68号中国地质大学(武汉)地理与信息工程学院 &nbsp; 邮编：430078
               <br>
